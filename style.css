@@ -1,0 +1,138 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #142e2c;
+    color: white;
+}
+
+#puissance4 {
+    background-color: rgba(230, 230, 36, 0.2);
+    display: inline-block;
+}
+
+.col {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.col.empty {
+    cursor: pointer;
+}
+
+.next-red {
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.next-yellow {
+    background-color: rgba(248, 251, 70, 0.2);
+}
+
+.col.red {
+    background-color: red;
+    animation: bounce 1s ease 1 alternate;
+}
+
+.col.yellow {
+    background-color: yellow;
+    animation: bounce 1s ease 1 alternate;
+}
+
+@keyframes bounce {
+
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0px);}
+
+}
+
+.play{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    padding-top: 10px;
+}
+
+#win{
+    padding-bottom: 30px;
+}
+
+.ml6 {
+    position: relative;
+    font-weight: 500;
+    font-size: 2.5em;
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+button{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #647a90;
+    border-color: #7933bb;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+#restart{
+    margin-bottom: 300px;
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    margin-right: 8px;
+
+}
+
+header{
+    color: white;
+    height: 50px;
+    background-color: #142e2c;
+    padding: 20px;
+}
+
+.result{
+    background-color: rgba(214,214,213,0.3);
+    width: 120px;
+    height: 50px;
+    padding: 20px;
+    margin: auto;
+}
+
+#mode{
+    visibility: hidden;
+}
+
+.reg{
+    color: white;
+    text-decoration: none;
+}
